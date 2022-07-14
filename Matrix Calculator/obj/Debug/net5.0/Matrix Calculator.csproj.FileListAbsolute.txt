@@ -1,0 +1,16 @@
+C:\Users\yana1\OneDrive\Рабочий стол\Работаем\Matrix Calculator\Matrix Calculator\bin\Debug\net5.0\Matrix Calculator.exe
+C:\Users\yana1\OneDrive\Рабочий стол\Работаем\Matrix Calculator\Matrix Calculator\bin\Debug\net5.0\Matrix Calculator.deps.json
+C:\Users\yana1\OneDrive\Рабочий стол\Работаем\Matrix Calculator\Matrix Calculator\bin\Debug\net5.0\Matrix Calculator.runtimeconfig.json
+C:\Users\yana1\OneDrive\Рабочий стол\Работаем\Matrix Calculator\Matrix Calculator\bin\Debug\net5.0\Matrix Calculator.runtimeconfig.dev.json
+C:\Users\yana1\OneDrive\Рабочий стол\Работаем\Matrix Calculator\Matrix Calculator\bin\Debug\net5.0\Matrix Calculator.dll
+C:\Users\yana1\OneDrive\Рабочий стол\Работаем\Matrix Calculator\Matrix Calculator\bin\Debug\net5.0\ref\Matrix Calculator.dll
+C:\Users\yana1\OneDrive\Рабочий стол\Работаем\Matrix Calculator\Matrix Calculator\bin\Debug\net5.0\Matrix Calculator.pdb
+C:\Users\yana1\OneDrive\Рабочий стол\Работаем\Matrix Calculator\Matrix Calculator\obj\Debug\net5.0\Matrix Calculator.csproj.AssemblyReference.cache
+C:\Users\yana1\OneDrive\Рабочий стол\Работаем\Matrix Calculator\Matrix Calculator\obj\Debug\net5.0\Matrix Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yana1\OneDrive\Рабочий стол\Работаем\Matrix Calculator\Matrix Calculator\obj\Debug\net5.0\Matrix Calculator.AssemblyInfoInputs.cache
+C:\Users\yana1\OneDrive\Рабочий стол\Работаем\Matrix Calculator\Matrix Calculator\obj\Debug\net5.0\Matrix Calculator.AssemblyInfo.cs
+C:\Users\yana1\OneDrive\Рабочий стол\Работаем\Matrix Calculator\Matrix Calculator\obj\Debug\net5.0\Matrix Calculator.csproj.CoreCompileInputs.cache
+C:\Users\yana1\OneDrive\Рабочий стол\Работаем\Matrix Calculator\Matrix Calculator\obj\Debug\net5.0\Matrix Calculator.dll
+C:\Users\yana1\OneDrive\Рабочий стол\Работаем\Matrix Calculator\Matrix Calculator\obj\Debug\net5.0\ref\Matrix Calculator.dll
+C:\Users\yana1\OneDrive\Рабочий стол\Работаем\Matrix Calculator\Matrix Calculator\obj\Debug\net5.0\Matrix Calculator.pdb
+C:\Users\yana1\OneDrive\Рабочий стол\Работаем\Matrix Calculator\Matrix Calculator\obj\Debug\net5.0\Matrix Calculator.genruntimeconfig.cache
