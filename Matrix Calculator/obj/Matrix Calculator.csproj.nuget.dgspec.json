@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\check\\Matrix_Calculator\\Matrix Calculator\\Matrix Calculator.csproj": {}
+    "C:\\Users\\User\\Desktop\\git\\MatrixCalculator\\Matrix Calculator\\Matrix Calculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\check\\Matrix_Calculator\\Matrix Calculator\\Matrix Calculator.csproj": {
+    "C:\\Users\\User\\Desktop\\git\\MatrixCalculator\\Matrix Calculator\\Matrix Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\check\\Matrix_Calculator\\Matrix Calculator\\Matrix Calculator.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\git\\MatrixCalculator\\Matrix Calculator\\Matrix Calculator.csproj",
         "projectName": "Matrix Calculator",
-        "projectPath": "C:\\Users\\User\\Desktop\\check\\Matrix_Calculator\\Matrix Calculator\\Matrix Calculator.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\git\\MatrixCalculator\\Matrix Calculator\\Matrix Calculator.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\check\\Matrix_Calculator\\Matrix Calculator\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\git\\MatrixCalculator\\Matrix Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"

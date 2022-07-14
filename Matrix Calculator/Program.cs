@@ -10,9 +10,8 @@ namespace Matrix_Calculator
         /// <summary>
         /// Точка входа.
         /// </summary>
-        /// <param name="args"></param>
-        
-        static void Main(string[] args)
+
+        static void Main()
         {
             do
             {
@@ -26,17 +25,17 @@ namespace Matrix_Calculator
                     check = true;
                     switch (operation)
                     {
-                        case "trace":
+                        case "1":
                             SizeOfSquaredMatrix(out numLine);
                             ChoosingGeneration(in numLine, in numLine, out int[,] matrix);
                             Console.WriteLine("След вашей матрицы: " + Trace(in matrix));
                             break;
-                        case "transposition":
+                        case "2":
                             SizeOfNotSquaredMatrix(out numLine, out numColumn);
                             ChoosingGeneration(in numLine, in numColumn, out matrix);
                             Transposition(in numLine, in numColumn, in matrix);
                             break;
-                        case "add":
+                        case "3":
                             Console.WriteLine("Давайте определим первую матрицу!");
                             SizeOfNotSquaredMatrix(out numLine, out numColumn);
                             ChoosingGeneration(in numLine, in numColumn, out matrix);
@@ -44,7 +43,7 @@ namespace Matrix_Calculator
                             ChoosingGeneration(in numLine, in numColumn, out int[,] secondMatrix);
                             Add(in numLine, in numColumn, in matrix, in secondMatrix);
                             break;
-                        case "subtract":
+                        case "4":
                             Console.WriteLine("Давайте определим первую матрицу!");
                             SizeOfNotSquaredMatrix(out numLine, out numColumn);
                             ChoosingGeneration(in numLine, in numColumn, out matrix);
@@ -52,7 +51,7 @@ namespace Matrix_Calculator
                             ChoosingGeneration(in numLine, in numColumn, out secondMatrix);
                             Subtract(in numLine, in numColumn, in matrix, in secondMatrix);
                             break;
-                        case "multiply matrices":
+                        case "5":
                             do
                             {
                                 secondCheck = true;
@@ -73,12 +72,12 @@ namespace Matrix_Calculator
                             ChoosingGeneration(in numLineSecond, in numColumnSecond, out secondMatrix);
                             MatricesMultiplication(in matrix, in secondMatrix);
                             break;
-                        case "multiply":
+                        case "6":
                             SizeOfNotSquaredMatrix(out numLine, out numColumn);
                             ChoosingGeneration(in numLine, in numColumn, out matrix);
                             Multiplication(in numLine, in numColumn, in matrix);
                             break;
-                        case "determinant":
+                        case "7":
                             SizeOfSquaredMatrix(out numLine);
                             ChoosingGeneration(in numLine, in numLine, out matrix);
                             Console.WriteLine("Определитель вашей матрицы: " + Determinant(matrix));
@@ -166,6 +165,7 @@ namespace Matrix_Calculator
         /// </summary>
         /// <param name="numLine">Количество строк матрицы.</param>
         /// <param name="numColumn">Количество столбцов матрицы.</param>
+        /// <param name="matrix">Матрица.</param>
 
         public static void MakingARandomMatrix(in int numLine, in int numColumn, out int[,] matrix)
         {
@@ -244,18 +244,18 @@ namespace Matrix_Calculator
         public static void ChoosingGeneration(in int numLine, in int numColumn, out int[,] matrix)
         {
             Console.WriteLine("Вы хотите задать элементы матрицы вручную, или сгенерировать их случайным образом?");
-            Console.WriteLine("Напишите \"By hand\" для ручного ввода или \"Random\" для случайной генерации (от -50 до 50).");
+            Console.WriteLine("Напишите цифру 1 для ручного ввода или цифру 2 для случайной генерации (от -50 до 50).");
             bool check;
             matrix = new int[numLine, numColumn];
             do
             {
                 check = true;
                 string choice = Console.ReadLine();
-                if (choice == "By hand")
+                if (choice == "1")
                 {
                     MatrixInput(in numLine, in numColumn, out matrix);
                 }
-                else if (choice == "Random")
+                else if (choice == "2")
                 {
                     MakingARandomMatrix(in numLine, in numColumn, out matrix);
                 }
@@ -479,14 +479,14 @@ namespace Matrix_Calculator
             Console.WriteLine("- Зачем он нужен? - спросите вы.");
             Console.WriteLine("- Для домашек по линалу! - отвечу я.");
             Console.WriteLine("Вы можете произвести 7 различных операций:");
-            Console.WriteLine("trace - вычислить след матрицы (только для квадратных).");
-            Console.WriteLine("transposition - транспонировать матрицу.");
-            Console.WriteLine("add - сложить две матрицы.");
-            Console.WriteLine("subtract - вычесть из первой матрицы вторую.");
-            Console.WriteLine("multiply matrices - умножить первую матрицу на вторую (количество столбцов первой должно быть равно");
+            Console.WriteLine("1. trace - вычислить след матрицы (только для квадратных).");
+            Console.WriteLine("2. transposition - транспонировать матрицу.");
+            Console.WriteLine("3. add - сложить две матрицы.");
+            Console.WriteLine("4. subtract - вычесть из первой матрицы вторую.");
+            Console.WriteLine("5. multiply matrices - умножить первую матрицу на вторую (количество столбцов первой должно быть равно");
             Console.WriteLine("количеству строк второй матрицы).");
-            Console.WriteLine("multiply - умножить матрицу на число.");
-            Console.WriteLine("determinant - посчитать определитель матрицы (только для квадратных).");
+            Console.WriteLine("6. multiply - умножить матрицу на число.");
+            Console.WriteLine("7. determinant - посчитать определитель матрицы (только для квадратных).");
             Console.WriteLine("");
             Console.WriteLine("После выбора операции нужно будет ввести размеры матрицы.");
             Console.WriteLine("Далее, вы сможете ввести элементы матрицы самостоятельно, или сгенерировать ее случайным образом.");
@@ -495,7 +495,7 @@ namespace Matrix_Calculator
             Console.WriteLine("На ввод принимаются только целые значения от -50 до 50. Случайная генерация тоже будет в этом диапазоне.");
             Console.WriteLine("");
             Console.WriteLine("Отлично, можно приступать!");
-            Console.WriteLine("Введите операцию:");
+            Console.WriteLine("Введите номер операции:");
         }
 
     }
